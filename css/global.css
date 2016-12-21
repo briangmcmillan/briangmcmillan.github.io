@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.headerFooterDesign {
+    background-color: #3C4859;
+    color: white;
+}
+.subaruFixed {
+    background: url(../img/aboutme_background.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    color: black;
+    padding-top: 75px;
+}
+.portfolioPic {
+    margin: 1vw;
+    width: 100px;
+    border: 3px solid #3C4859;
+}
+.headerText {
+    color: #3C4859;
+}
+.resumeSection {
+    height: auto;
+    background-color: #3C4859;
+    color: #F1F7ED;
+    margin: 5vw auto 5vw auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #46494e;
+}
+.aboutSection {
+    height: auto;
+    background-color: #3C4859;
+    color: #F1F7ED;
+    margin: 5vw auto 5vw auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #46494e;
+}
+
+
+@media screen and (min-width: 768px) {
+    .resumeSection {
+        height: auto;
+        background-color: #3C4859;
+        color: #F1F7ED;
+        margin: 5vw auto 5vw auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px #46494e;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .resumeSection {
+        height: auto;
+        background-color: #3C4859;
+        color: #F1F7ED;
+        margin: 5vw auto 5vw auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px #46494e;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .resumeSection {
+        height: auto;
+        background-color: #3C4859;
+        color: #F1F7ED;
+        margin: 5vw auto 5vw auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px #46494e;
+    }
+}
