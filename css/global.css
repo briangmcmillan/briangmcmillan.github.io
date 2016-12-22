@@ -7,15 +7,22 @@ body {
 }
 .headerDesign {
     background-color: #3C4859;
-    color: white;
+    color: #F1F7ED;
     font-size: 7.5vw;
 }
 .footerDesign {
     background-color: #3C4859;
-    color: white;
-    font-size: 2.5vw;
+    color: #F1F7ED;
+    font-size: 3vw;
     padding-top: 30px;
     height: 200px;
+}
+.footerLinks a {
+    text-decoration: none;
+    color: #F1F7ED;
+}
+.footerLinks a:hover {
+    color: rgb(249, 63, 63);
 }
 .feeText {
     height: 350px;
@@ -82,7 +89,6 @@ body {
 }
 .techPics {
     margin: 5vw auto 5vw auto;
-    /*box-shadow: 10px 10px 20px #46494e;*/
 }
 .modalPics {
     margin: 5vw auto 5vw auto;
@@ -113,7 +119,7 @@ body {
         color: white;
         font-size: 20px;
         padding-top: 30px;
-        height: 250px;
+        height: 200px;
     }
     .resumeSection {
         height: auto;
