@@ -13,6 +13,10 @@ body {
     color: #F1F7ED;
     font-size: 7.5vw;
 }
+.headerLinks a {
+    text-decoration: none;
+    color: rgb(249, 63, 63);
+}
 .footerDesign {
     background-color: #3C4859;
     color: #F1F7ED;
@@ -39,6 +43,7 @@ body {
     background-size: cover;
     height: 350px;
     padding-top: 75px;
+    margin-top: 50px;
 }
 .studyFixed {
     background: url(../img/study.jpg);
@@ -60,13 +65,13 @@ body {
 }
 .aboutSection {
     height: auto;
-    background-color: white;
+    background-color: #3C4859;
     font-size: 18px;
-    color: #3C4859;
+    color: white;
     border: 3px solid #3C4859;
     margin: 5vw auto 5vw auto;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px #46494e;
+    /*box-shadow: 5px 5px 30px #46494e;*/
 }
 .modalPics {
     margin: 3vw auto 3vw auto;
@@ -76,12 +81,11 @@ body {
     box-shadow: 20px 20px 20px #3C4859;
 }
 .modal-body a {
-    text-decoration: none;
-    color: #3C4859;
+    text-decoration: underline;
+    color: rgb(249, 63, 63);
 }
 .modal-body a:hover {
-    text-decoration: none;
-    color: rgb(249, 63, 63);
+    color: #3C4859;
 }
 .techPics {
     margin: 5vw auto 5vw auto;
