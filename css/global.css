@@ -3,27 +3,48 @@
 }
 body {
     width: 100%;
+    font-family: 'Bree Serif', serif;
 }
-.headerFooterDesign {
+.headerDesign {
     background-color: #3C4859;
     color: white;
+    font-size: 7.5vw;
 }
-.subaruFixed {
-    background: url(../img/aboutme_background.jpeg);
+.footerDesign {
+    background-color: #3C4859;
+    color: white;
+    font-size: 2.5vw;
+    padding-top: 30px;
+    height: 200px;
+}
+.feeText {
+    height: 350px;
+    color: rgb(249, 63, 63);
+    padding-top: 75px;
+}
+.writingFixed {
+    background: url(../img/macB.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: 350px;
-    color: black;
+    padding-top: 75px;
+}
+.studyFixed {
+    background: url(../img/study.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
     padding-top: 75px;
 }
 .portfolioPic {
     margin: 1vw;
-    width: 100px;
+    width: 175px;
     border: 3px solid #3C4859;
 }
-.headerText {
-    color: #3C4859;
+.accentFont {
+    color: rgb(249, 63, 63);
 }
 .resumeSection {
     height: auto;
@@ -33,17 +54,67 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 20px #46494e;
 }
+.resumeSection li {
+    font-size: 15px;
+}
+.aboutSectionTitle {
+    height: auto;
+    color: #3C4859;
+    margin: 5vw auto 5vw auto;
+}
 .aboutSection {
     height: auto;
-    background-color: #3C4859;
-    color: #F1F7ED;
+    background-color: white;
+    font-size: 18px;
+    color: #3C4859;
+    border: 3px solid #3C4859;
     margin: 5vw auto 5vw auto;
     border-radius: 10px;
     box-shadow: 10px 10px 20px #46494e;
 }
-
+.workSection {
+    height: auto;
+    background-color: white;
+    border: 3px solid #3C4859;
+    margin: 5vw auto 5vw auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #46494e;
+}
+.techPics {
+    margin: 5vw auto 5vw auto;
+    /*box-shadow: 10px 10px 20px #46494e;*/
+}
+.modalPics {
+    margin: 5vw auto 5vw auto;
+    box-shadow: 10px 10px 20px #46494e;
+}
+.modalPics:hover {
+    margin: 5vw auto 5vw auto;
+    box-shadow: 20px 20px 30px #46494e;
+    border: 4px solid #3C4859;
+}
+.modal-body a {
+    text-decoration: none;
+    color: #3C4859;
+}
+.modal-body a:hover {
+    text-decoration: none;
+    color: rgb(249, 63, 63);
+}
 
 @media screen and (min-width: 768px) {
+    .headerDesign {
+        background-color: #3C4859;
+        color: white;
+        font-size: 50px;
+    }
+    .footerDesign {
+        background-color: #3C4859;
+        color: white;
+        font-size: 20px;
+        padding-top: 30px;
+        height: 250px;
+    }
     .resumeSection {
         height: auto;
         background-color: #3C4859;
